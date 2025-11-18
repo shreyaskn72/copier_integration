@@ -17,3 +17,15 @@ container_port:
   type: int
   help: "container_port (Container port exposed by the Flask app)"
   default: 5000
+
+
+docker_working_dir:
+  type: str
+  help: "docker_working_directory"
+  default: "app"
+
+
+docker_container_name:
+  type: str
+  help: "docker_container_name"
+  default: "flask_hello"

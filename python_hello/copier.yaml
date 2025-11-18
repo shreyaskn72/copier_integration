@@ -1,0 +1,14 @@
+# copier.yaml
+_min_copier_version: "7.0"
+_templates_path: .
+
+project_folder_name:
+  type: str
+  help: "project_folder_name"
+  default: "hello_api_folder"
+
+
+file_name:
+  type: str
+  help: "file_name"
+  default: "api.py"

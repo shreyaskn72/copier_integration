@@ -12,3 +12,8 @@ file_name:
   type: str
   help: "file_name"
   default: "api.py"
+
+container_port:
+  type: int
+  help: "container_port (Container port exposed by the Flask app)"
+  default: 5000

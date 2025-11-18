@@ -43,7 +43,7 @@ container_port (Container port exposed by the Flask app)
 ## **Step 3 — Run Your Generated App**
 
 ```bash
-cd my_hello_app
+cd demo
 python api.py
 ```
 
@@ -52,5 +52,18 @@ You should see:
 ```
 * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
+```
+
+Stop the above process.
+
+Then you can use docker using
+
+Local docker commands:
+```bash
+docker compose build 
+```
+
+```bash
+docker compose up      --> container start
 ```
 

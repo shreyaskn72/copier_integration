@@ -33,6 +33,8 @@ Copier will ask:
 ```
 project_folder_name
 file_name
+container_port (Container port exposed by the Flask app)
+
 
 ```
 
@@ -48,6 +50,7 @@ python api.py
 You should see:
 
 ```
-Hello, World!
+* Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
 ```
 
